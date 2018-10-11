@@ -93,7 +93,7 @@ xclip -sel clip < ~/.ssh/id_rsa.pub
 10. Clique **New SSH key** ou **Add SSH key**
 
 
-11. Dê um nome descritivo, como "VM-Senac-Arq-BigData" e cole (CTRL-V) a chave no local apropriado.
+11. Dê um nome descritivo, como "VM-EngBio-PUC-SP" e cole (CTRL-V) a chave no local apropriado.
 
 
 12. Finalize com **Add SSH key**
@@ -101,17 +101,15 @@ xclip -sel clip < ~/.ssh/id_rsa.pub
 
 ### Vá até a raiz de um terminal
 
-13. Crie um diretório para conter as aulas
-
 ```
-mkdir aulas
+cd ~
 ```
 
 
 14. Clone o projeto GitHub
 
 ```
-git clone git@github.com:j3ffsilva/senac2018-arquitetura-analytics-bigdata.git
+git clone git@github.com:j3ffsilva/pucsp-engbio-1oano.git
 ```
 
 ### Iniciando o jupyter
@@ -121,7 +119,7 @@ git clone git@github.com:j3ffsilva/senac2018-arquitetura-analytics-bigdata.git
 ex:
 
 ```
-cd ~/aulas/senac2018-arquitetura-analytics-bigdata
+cd ~/pucsp-engbio-1oano
 ```
 
 16. Inicie o Jupyter:
